@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/eclipse-temurin:25.0.2_10-jre
+FROM public.ecr.aws/docker/library/eclipse-temurin:25.0.2_10-jre-alpine-3.23
 
 ENV REVIEWDOG_VERSION=v0.21.0
 ENV CHECKSTYLE_VERSION=13.3.0
